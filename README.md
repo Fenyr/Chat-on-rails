@@ -2,19 +2,22 @@
 
 ![preview image](preview_chat.png)
 
-Chat App - build with ruby on rails and tailwindcss.
-This my first rails App, I start learning this language yesterday.
-
-if you have any suggestion you can contact me.
+Chat App - build with ruby on rails and tailwindcss.\n
+This my first rails App, I start learning this language yesterday.\n
+\n
+if you have any suggestion you can contact me.\n
 Created on Wednesday, 15 November 2023.
 
-## how to run?
+## How to run?
+
+Rails Command:
 
 - Install package: bundle install
 - Migrating database: rails db:migrate
 - Seeding database: rake db:seed
 - Run server: rails s -e dev
-
+  \n
+  Tailwindcss Command:
 - Tailwind dev mode: rails tailwindcss:watch
 - Tailwind buid: rails tailwindcss:build
 
