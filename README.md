@@ -2,8 +2,10 @@
 
 ![preview image](preview_chat.png)
 
-Chat App build with ruby on rails and tailwindcss.
-This my first rails App, if you have any suggestion you can contact me.
+Chat App - build with ruby on rails and tailwindcss.
+This my first rails App, I start learning this language yesterday.
+
+if you have any suggestion you can contact me.
 Created on Wednesday, 15 November 2023.
 
 ## how to run?
