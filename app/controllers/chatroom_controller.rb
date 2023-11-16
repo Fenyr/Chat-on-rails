@@ -3,8 +3,14 @@ class ChatroomController < ApplicationController
     @messages = Message.all
   end
   def add
-    @msg = Message.create(msg_params)
-    redirect_to "/chatroom/index"
+    @msg = Message.new(msg_params)
+    respond_to do |format|
+    if @msg.save
+      ActionCable.server.broadcast"chat_channel", {content: @msg}
+      format.html { redirect_to "/" } 
+      format.js
+    end
+  end
   end
 
   private
