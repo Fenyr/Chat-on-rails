@@ -6,7 +6,7 @@ Chat App - build with ruby on rails and tailwindcss.<br/>
 This my first rails App, I start learning this language yesterday.<br/>
 <br/>
 if you have any suggestion you can contact me.<br/>
-Created on Wednesday, 15 November 2023.
+#Created on Wednesday, 15 November 2023.
 
 ## How to run?
 
@@ -17,7 +17,10 @@ Rails Command:
 - Seeding database: rake db:seed
 - Run server: rails s -e dev
   <br/>
-  Tailwindcss Command:
+  <br/>
+
+Tailwindcss Command:
+
 - Tailwind dev mode: rails tailwindcss:watch
 - Tailwind buid: rails tailwindcss:build
 
